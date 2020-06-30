@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.Uper-portion{
+    text-align: justify;
+    width: 35%;
+    float: left;
+}
+.Uper-portion img{
+    width: 100%;
+}
+h2{
+    font-size: 25px;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(240, 123, 143);
+}
+p{
+    color: grey;
+}
+#left-pos-up{
+    padding: 150px 50px 130px 13%;
+}
+section{
+    background-image: url(header-bg.png);
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: black;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+.middle{
+    text-align: justify;
+    width: 35%;
+    float: left;
+}
+.middle img{
+    width: 450px;
+    height: 500px;
+    padding: 0px 50px 0px 100px;
+}
+#mid{
+    margin-left: 50px;
+    padding-left: 20px;
+}
