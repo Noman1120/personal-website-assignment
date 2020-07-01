@@ -100,6 +100,7 @@ p{
     display: block;
     float: left;
     height: 280px;
+    text-decoration:none;
 }
 .block:hover{
     background-color: rgba(155, 151, 151, 0.295);
@@ -120,8 +121,7 @@ p{
     height: 400px;
     background-position: left; 
     background-repeat: no-repeat; 
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 .end{
