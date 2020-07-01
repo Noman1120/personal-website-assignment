@@ -78,6 +78,10 @@ p{
     height: 200px;
     width: 250;
 }
+.latest-work:hover{
+    height: 300px;
+    width: 350px;
+}
 .latest-work{
     width: 30%;
     float: left;
