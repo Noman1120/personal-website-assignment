@@ -23,7 +23,7 @@ p{
 #left-pos-up{
     padding: 150px 50px 130px 13%;
 }
-section{
+.top{
     background-image: url(header-bg.png);
     height: 500px;
     background-position: center; 
@@ -37,17 +37,23 @@ section{
     padding: 10px 30px;
     border-radius: 2px;
 }
+
+.biography{
+    background-image: url(biography-bg.png);
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 .middle{
-    text-align: justify;
-    width: 35%;
+    width: 40%;
+    display: block;
     float: left;
+    text-align: left;
 }
 .middle img{
     width: 450px;
     height: 500px;
-    padding: 0px 50px 0px 100px;
-}
-#mid{
+    padding: 0px 50px 0px 10px;
     margin-left: 50px;
-    padding-left: 20px;
 }
