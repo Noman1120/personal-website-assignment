@@ -29,6 +29,7 @@ p{
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    overflow:hidden;
 }
 .button{
     text-decoration: none;
@@ -36,6 +37,9 @@ p{
     color: black;
     padding: 10px 30px;
     border-radius: 2px;
+}
+.button:hover{
+    background-image: linear-gradient(45deg, rgb(122, 255, 162), rgb(255, 71, 230));
 }
 
 .biography{
@@ -52,8 +56,89 @@ p{
     text-align: left;
 }
 .middle img{
-    width: 450px;
-    height: 500px;
-    padding: 0px 50px 0px 10px;
-    margin-left: 50px;
+    width: 480px;
+    height: 480px;
+    padding-left: 150px;
 }
+.work{
+    background-image: url(latest-work-bg.png);
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 300px;
+    overflow: hidden;
+}
+.work img{
+    height: 200px;
+    width: 250;
+}
+.latest-work{
+    width: 30%;
+    float: left;
+}
+.block{
+    width: 18%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 210, 210, 0.199);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(167, 87, 7);
+    padding: 5px 15px 5px 15px;
+    margin: 10px;
+    font-size: medium;
+    display: block;
+    float: left;
+    height: 280px;
+}
+.block:hover{
+    background-color: rgba(155, 151, 151, 0.295);
+}
+
+.block img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgba(241, 133, 114, 0.671);
+    border-radius: 5px;
+}
+.addition{
+    padding-left: 150px;
+    background-image: url(photos/exp-bg.png);
+    text-align: center;
+    height: 400px;
+    background-position: left; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    
+}
+
+.end{
+    text-align: center;   
+    background-image: url(footer-bg.png);
+    height: 300px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+.message{
+    background-color: rgb(202, 52, 77);
+    width: 40%;
+    height: 100px;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 7px solid;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(134, 236, 180),rgb(214, 102, 120));
+    border-image-slice: 1;
+}
+
